@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie shop</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-grid.css">
+	<link rel=" stylesheet" type="text/css" href="../bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+
+	<script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
+	<script type="text/javascript " src="../bootstrap/js/bootstrap.min.js"></script>
+
+	<meta charset="utf-8">
+	<meta name="keywords" content="movies, series, tv-shows">
+	<meta http-equiv="refresh" content="40">
+	<meta name="viewport" content="width-device-width, initial-scale-1.0">
+</head>
+<body>
+
+	<div class="grid-container">
+		<div id="item1">
+
+			<img src="../images/logo.png" alt="logo" width="40" height="40">
+		<!--	
+		<nav>
+			<a href="About.html">About</a>
+			<a href="uploadMovie.html">Upload Movie</a>
+		</nav>
+	-->
+	<br>
+	<br>
+
+	<h7>Real and Reel: Buy one get Two Free</h7>
+	</div>
+</div>
+<br>
+<button onclick="location.href='../index.html'" type="button">
+         Back to Homepage</button>
+<br>
+<br>
+<div class="container">
+	<form>
+		<div class="row form-group">
+			<div class="col">
+				<label>Movie Name</label>
+				<input type="text" name="moviename" id="Enter moviename" placeholder="Movie Name" class="form-control">
+			</div>
+
+			<div class="col">
+				<label>Lead Actor</label>
+				<input type="text" name="Leadactor" id="Leadactor" placeholder="Lead Actor" class="form-control">
+			</div>
+			
+		</div>
+
+		<div class=" row form-group">
+			<div class="col">
+				<label>Duration</label>
+				<input type="number" name="duration" id="duration" placeholder="Time in Hours" class="form-control">
+				
+			</div>
+
+			<div class="col">
+				<label for="poster">Movie poster</label>
+				<br>
+				<input type="file" name='poster'id='poster' class="form-control">
+				
+			</div>
+			
+		</div>
+
+
+			<div class=" row form-group">
+			<div class="col">
+				<label>Rating</label>
+				<input type="number" name="Rating" id="Rating" placeholder="PG" class="form-control">
+				
+			</div>
+
+			<div class="col">
+				<label>Genre</label>
+				<br>
+				<input type="text" name='Genre'id='Genre' placeholder="Genre" class="form-control">
+				
+			</div>
+			
+		</div>
+
+
+
+
+		<div class=" row form-group">
+			
+			<div class="col">
+
+				<input type="submit" name="save" id="save" class="btn btn-success btn-block">
+				
+			</div>
+
+			<div class="col">
+				<input type="reset" name="reset" id="reset" class="btn btn-danger btn-block">
+
+			</div>
+		</div>
+
+	</form>
+	
+</div>
+</body>
+</html>
