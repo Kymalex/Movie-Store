@@ -3,60 +3,11 @@
 	padding: 0;
 }
 
-#item1{
-	grid-area: header;
-
-	padding: 5px;
-	margin: 10px;
-	
-}
-
-#item2{
-	grid-area: menu;
-	
-	padding: 5px;
-	margin: 10px;
-	
-}
-
-#item3{
-	grid-area: main;
-	
-	padding: 5px;
-	margin: 10px;
-	
-}
-
-#item4{
-	grid-area: footer;
-	
-	padding: 5px;
-	margin: 10px;
-	
-}
-
-
-#slogan{
-	padding: 10px;
-	text-align: center;
-
-}
-
-.gridContainer{
-	display: grid;
-	grid-template-areas: 
-	'header header header header header '
-	'menu main main main main '
-	'menu main main main main '
-	'footer footer footer footer footer'
-}
-
-button {
+button{
+	padding:10px;
 	background-color: blue;
 	color: white;
-	border-radius: 14px;
-	margin: 10px;
-	padding: 15px;
-
-  
 }
+
+
+
